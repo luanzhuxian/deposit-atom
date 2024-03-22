@@ -46,8 +46,8 @@ const App = () => {
       <Panel>
         <h5>Select Theme</h5>
         <RadioGroup value={theme} onChange={setTheme}>
-          <Radio value="light">light</Radio>
-          <Radio value="dark">dark</Radio>
+          <Radio value="light">Light</Radio>
+          <Radio value="dark">Dark</Radio>
         </RadioGroup>
       </Panel>
       <DepositPanel />

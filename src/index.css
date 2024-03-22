@@ -3,6 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
   box-sizing: border-box;
+  font-size: 12px;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,5 +17,10 @@ body {
 }
 
 input[type="radio"] {
+  cursor: pointer;
+}
+
+button {
+  border: none;
   cursor: pointer;
 }
